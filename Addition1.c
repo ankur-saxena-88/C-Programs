@@ -1,57 +1,58 @@
 /*
-C Program to calculate and display the addition of two integers.
-Date: Wednesday, 09-September-2020
+C Program To Find The Sum Of Two Integer Numbers.
+Date: Thursday, 24-09-2020
 @author: Ankur Saxena
-Platform: Linux Ubuntu 18.04 / x64 / gcc 7.5.0 / Atom Text Editor
+Platform: Windows 10 Pro/x64/gcc 8.1.0/Atom Text Editor
 */
 
 /*
 Algorithm:
 
-Step 1: Start Program.
-Step 2: The user is first asked to enter two numbers and stored in the
-        variables num1 and num2.
-Step 3: Then, the variables num1 and num2 are added using the arithmetic
-        operator (+).
-Step 4: And the result is stored in the variable sum.
-Step 5: Program End.
+Step 1: Start
+Step 2: Declare integer type variables num1, num2 and sum.
+Step 3: Get the value of num1 from the user.
+Step 4: Get the value of num2 from the user.
+Step 5: Calculate the Sum of num1 and num2.
+Step 6: And the result is stored in the variable sum.
+Step 7: Print the Sum.
+Step 8: Stop
 */
 
+//C Code
 #include <stdio.h>
-#include <stdlib.h>
 
-int main (){
+//main method / function
+int main(){
 
-  //Declare variables
-  int num1, num2, sum;
+//declare integer type variables
+int num1, num2, sum;
 
-  system ("clear"); //Clear screen command
+printf("Please enter the first number : \n");
+scanf("%d", &num1);
 
-  //Ask user to enter two numbers
-  printf ("Please enter any two numbers : \n");
+printf("Please enter the second number : \n");
+scanf("%d", &num2);
 
-  //Read two numbers from the user
-  scanf ("%d %d", &num1, &num2);
+//calculate the sum
+sum = num1 + num2;
 
-  //Calculate the sum of num1 and num2
-  sum = num1 + num2;
+//print the sum
+printf("\a\n\nSum of %d and %d is :: %d\n", num1, num2, sum);
 
-  //Print the sum
-  printf ("\n\n\aSum of %d and %d is :: %d\n", num1, num2, sum);
-
-  return 0;
+return 0;
 }
 
 /*
-Save this file as "Addition1.c"
-Compile: $ gcc Addition1.c -o Addition1 <press the Enter key>
-Execute: $ ./Addition1 <press the Enter key>
+Save this file as "addition1.c"
+Compile: $ gcc addition1.c -o addition1 [press the Enter key]
+Execute: $ ./addition1 [press thte Enter key]
 Output:
 
-Please enter any two numbers :
-20
-30
+Please enter the first number :
+25
+Please enter the second number :
+65
 
 
-Sum of 20 and 30 is :: 50
+Sum of 25 and 65 is :: 90
 */
