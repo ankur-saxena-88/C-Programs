@@ -31,7 +31,7 @@ int main () // main function
 	char in_str [125];
 
 
-	// read a full line of input from stdin and save it to the "in_str1" variable
+	// read a full line of input from stdin and save it to the "in_str" variable
 	scanf ("%[^\n]", in_str);
 
 	// print the output
