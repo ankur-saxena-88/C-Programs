@@ -1,6 +1,6 @@
 /*
  * Program: Write a C program that accepts a string from the user and display on the console screen.
- * Date: Monday, 01-02-2021
+ * Date: Monday, 01-03-2021
  * @author: Ankur Saxena
  * Platform: Windows 10 Pro/x64/gcc 8.0/Vim editor
  */
