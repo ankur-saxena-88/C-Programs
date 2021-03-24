@@ -34,6 +34,8 @@ int main() // main function
         return 0;
 }
 
+// program end
+
 /*
 Save this file as "Div1.c"
 Compile:
