@@ -12,7 +12,7 @@ Platform: Windows 10 Pro/x64/gcc v7.1.1/Vim editor
 
 int main() // main function
 {
-    system ("cls"); // clear the console screen
+    //system ("cls"); // clear the console screen
     
     /*
     for linux / macos, use "clear" command inside the "system ()" function.
