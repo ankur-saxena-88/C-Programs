@@ -5,7 +5,7 @@ Date: Wed, 24-3-2021
 Platform: Windows 10 Pro/x64/gcc v7.1.1/Vim editor
 */
 
-// program
+// program start
 
 #include <stdio.h> // c header file
 #include <stdlib.h>
@@ -36,6 +36,8 @@ int main() // main function
     
     return 0;
 }
+
+// program end
 
 /*
 Save this file as "MultiTab.c"
