@@ -30,6 +30,8 @@ int main()
 
     // print area of a rectangle
     printf("\nArea of a rectangle is: %.2lf\n",rec_area);
+    
+    return 0;
 }
 
 // program end
